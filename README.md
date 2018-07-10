@@ -13,7 +13,7 @@ Install the dotfiles with either Git or curl:
 
 ### Clone with Git
 
-    git clone git@github.com:xdroff/.dotfiles.git ~/.dotfiles
+    git clone https://github.com/xdroff/.dotfiles.git ~/.dotfiles
     source ~/.dotfiles/install.sh
 
 ### Remotely install using curl
