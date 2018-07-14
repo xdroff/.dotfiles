@@ -26,3 +26,13 @@ dataurl() {
   fi
   echo "data:${MIMETYPE};base64,$(openssl base64 -in "$1" | tr -d '\n')"
 }
+
+# Create a bz2 archive 
+
+bz2() {
+  if [ -d "$1" ] || [ -f "$1" ]; then
+    tar cjvf "${1%/}.tar.bz2" "$1"
+  else
+    echo "No such directory or file"
+  fi
+}
