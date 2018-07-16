@@ -1,7 +1,9 @@
 # Bash
 
-BREW_PREFIX=$(brew --prefix)
-BASH_COMPLETION="$BREW_PREFIX/share/bash-completion/bash_completion"
+if is-executable brew; then
+  BREW_PREFIX=$(brew --prefix)
+  BASH_COMPLETION="$BREW_PREFIX/share/bash-completion/bash_completion"
+fi
 
 if is-executable brew && [ -f "$BASH_COMPLETION" ]; then
   . "$BASH_COMPLETION"
