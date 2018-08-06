@@ -37,7 +37,7 @@ sub_update-os () {
   sudo softwareupdate -i -a
 }
 
-sub_update-os () {
+sub_update-brew () {
   brew update
   brew upgrade
 }
