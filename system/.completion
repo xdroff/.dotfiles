@@ -3,11 +3,13 @@
 if is-executable brew; then
   BREW_PREFIX=$(brew --prefix)
   BASH_COMPLETION="$BREW_PREFIX/etc/bash_completion.d"
-  echo $BASH_COMPLETION
 fi
 
-if is-executable brew && [ -f "$BASH_COMPLETION" ]; then
-  . "$BASH_COMPLETION"
+if is-executable brew && [ -d "$BASH_COMPLETION" ]; then
+  for compl in "$BASH_COMPLETION/"*;
+    do
+      [ -f "$compl" ] && . "$compl"
+    done
 fi
 
 unset BREW_PREFIX BASH_COMPLETION
