@@ -2,7 +2,8 @@
 
 if is-executable brew; then
   BREW_PREFIX=$(brew --prefix)
-  BASH_COMPLETION="$BREW_PREFIX/share/bash-completion/bash_completion"
+  BASH_COMPLETION="$BREW_PREFIX/etc/bash_completion.d"
+  echo $BASH_COMPLETION
 fi
 
 if is-executable brew && [ -f "$BASH_COMPLETION" ]; then
