@@ -33,5 +33,10 @@ colors() {
 }
 
 lport() {
-  sudo lsof -i :$1 
+  re='^[0-9]+$'
+  if ! [[ $1 =~ $re ]] ; then
+    echo "The port must be a number"
+  else
+    sudo lsof -i :$1
+  fi
 }
