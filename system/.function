@@ -32,3 +32,6 @@ colors() {
   done
 }
 
+lport() {
+  sudo lsof -i :$1 
+}
