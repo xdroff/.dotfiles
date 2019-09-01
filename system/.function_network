@@ -1,6 +1,6 @@
 # Get IP from hostname
 
-hn2ip() {
+h2ip() {
   ping -c 1 "$1" | egrep -m1 -o '[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}'
 }
 
