@@ -14,6 +14,7 @@ brew upgrade
 #apps=(
 #  wget
 #  wifi-password
+#  ripgrep
 #)
 
 #brew install "${apps[@]}"
