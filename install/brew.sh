@@ -16,6 +16,17 @@ brew upgrade
 #  wifi-password
 #  ripgrep
 #  ffsend
+#  git
+#  git-lfs
+#  diff-so-fancy
+#  jq
+#  pyenv
+#  tree
+#  tmux
+#  unrar
+#  coreutils
+#  docker-completion
+#  vagrant-completion
 #)
 
 #brew install "${apps[@]}"

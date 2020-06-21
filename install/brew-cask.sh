@@ -9,8 +9,21 @@ fi
 
 #apps=(
 #  virtualbox
+#  virtualbox-extension-pack
 #  visual-studio-code
 #  vlc
+#  cyberduck
+#  docker
+#  keka
+#  libreoffice
+#  libreoffice-language-pack
+#  postman
+#  qbittorrent
+#  sequel-pro
+#  sqlitestudio
+#  steermouse
+#  vagrant
+
 #)
 
 #brew cask install "${apps[@]}"
