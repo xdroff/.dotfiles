@@ -23,6 +23,7 @@ fi
 #  sqlitestudio
 #  steermouse
 #  vagrant
+#  pinta
 
 #)
 
