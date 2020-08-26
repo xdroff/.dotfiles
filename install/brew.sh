@@ -15,6 +15,7 @@ brew upgrade
 #  wget
 #  wifi-password
 #  ripgrep
+#  fd
 #  ffsend
 #  git
 #  git-lfs
