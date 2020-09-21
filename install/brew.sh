@@ -17,6 +17,7 @@ brew upgrade
 #  ripgrep
 #  fd
 #  bat
+#  xsv
 #  git
 #  git-lfs
 #  diff-so-fancy
