@@ -8,6 +8,7 @@ fi
 # Install packages
 
 #apps=(
+#  iterm2
 #  virtualbox
 #  virtualbox-extension-pack
 #  visual-studio-code
