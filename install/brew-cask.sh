@@ -25,6 +25,7 @@ fi
 #  steermouse
 #  vagrant
 #  pinta
+# coteditor
 
 #)
 
