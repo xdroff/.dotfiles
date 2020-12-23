@@ -44,7 +44,6 @@ sub_update-brew () {
 
 sub_clean () {
   brew cleanup
-  brew cask cleanup
   npm cache clean
 }
 

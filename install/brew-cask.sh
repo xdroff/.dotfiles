@@ -29,4 +29,4 @@ fi
 
 #)
 
-#brew cask install "${apps[@]}"
+#brew install --cask "${apps[@]}"
