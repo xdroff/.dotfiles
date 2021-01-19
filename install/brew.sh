@@ -29,6 +29,7 @@ brew upgrade
 #  coreutils
 #  docker-completion
 #  vagrant-completion
+#  buku
 #)
 
 #brew install "${apps[@]}"
