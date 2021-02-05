@@ -27,9 +27,9 @@ brew upgrade
 #  tmux
 #  unrar
 #  coreutils
+#  docker-compose
 #  docker-completion
 #  vagrant-completion
-#  buku
 #)
 
 #brew install "${apps[@]}"
