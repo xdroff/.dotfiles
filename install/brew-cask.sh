@@ -26,6 +26,7 @@ fi
 #  vagrant
 #  pinta
 # coteditor
+# 1password
 
 #)
 
