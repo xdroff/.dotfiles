@@ -27,6 +27,7 @@ brew upgrade
 #  tmux
 #  unrar
 #  coreutils
+#  bash-completion
 #  docker-compose
 #  docker-completion
 #  vagrant-completion

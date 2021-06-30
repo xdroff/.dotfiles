@@ -2,8 +2,11 @@
 
 if is-executable brew; then
   BREW_PREFIX=$(brew --prefix)
-  BASH_COMPLETION="$BREW_PREFIX/etc/bash_completion.d"
+  #BASH_COMPLETION="$BREW_PREFIX/etc/bash_completion.d"
 fi
+
+# Bash completion
+[[ -r "$BREW_PREFIX/etc/profile.d/bash_completion.sh" ]] && . "$BREW_PREFIX/etc/profile.d/bash_completion.sh"
 
 if is-executable brew && [ -d "$BASH_COMPLETION" ]; then
   for compl in "$BASH_COMPLETION/"*;
@@ -12,7 +15,7 @@ if is-executable brew && [ -d "$BASH_COMPLETION" ]; then
     done
 fi
 
-unset BREW_PREFIX BASH_COMPLETION
+#unset BREW_PREFIX BASH_COMPLETION
 
 # Dotfiles
 
