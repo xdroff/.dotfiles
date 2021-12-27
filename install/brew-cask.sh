@@ -27,6 +27,7 @@ fi
 #  pinta
 # coteditor
 # 1password
+# cloudflare-warp
 
 #)
 
