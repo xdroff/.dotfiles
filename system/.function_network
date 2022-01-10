@@ -8,11 +8,28 @@ h2ip() {
 # https://transfer.sh
 # https://github.com/dutchcoders/transfer.sh/
 
+#transfer() {
+#  tmpfile=$( mktemp -t transferXXX )
+#  curl --progress-bar --upload-file "$1" https://transfer.sh/$(basename $1) >> $tmpfile;
+#  cat $tmpfile;
+#  rm -f $tmpfile;
+#}
+
 transfer() {
-  tmpfile=$( mktemp -t transferXXX )
-  curl --progress-bar --upload-file "$1" https://transfer.sh/$(basename $1) >> $tmpfile;
-  cat $tmpfile;
-  rm -f $tmpfile;
+  if [[ -f "$1" ]]; then
+    tmpfile=$( mktemp -t transferXXX )
+    curl --progress-bar --upload-file "$1" https://transfer.sh/$(basename $1) >> $tmpfile
+    cat $tmpfile
+    rm -f $tmpfile
+  elif [[ -d "$1" ]]; then
+    echo "This is the directory, add it to the archive"
+    tar czf ${1%/}.tar.gz "${1%/}"
+    tmpfile=$( mktemp -t transferXXX )
+    curl --progress-bar --upload-file ${1%/}.tar.gz https://transfer.sh/$(basename ${1%/}.tar.gz) >> $tmpfile
+    cat $tmpfile
+    rm -f $tmpfile
+    rm -r ${1%/}.tar.gz
+  fi
 }
 
 # Find real from shortened url
