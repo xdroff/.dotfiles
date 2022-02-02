@@ -4,6 +4,12 @@ h2ip() {
   ping -c 1 "$1" | egrep -m1 -o '[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}'
 }
 
+# Get ip info
+
+ipinfo() {
+  curl ipinfo.io/"$1"
+}
+
 # Upload file to transfer.sh
 # https://transfer.sh
 # https://github.com/dutchcoders/transfer.sh/
