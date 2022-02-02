@@ -37,3 +37,14 @@ transfer() {
 unshorten() {
   curl -sIL $1 | sed -n 's/Location: *//p'
 }
+
+# Shows listening connections on the port
+
+lport() {
+  re='^[0-9]+$'
+  if ! [[ $1 =~ $re ]] ; then
+    echo "The port must be a number"
+  else
+    sudo lsof -i :$1
+  fi
+}
