@@ -32,3 +32,8 @@ colors() {
   done
 }
 
+# Get cheatsheet from http://cheat.sh/
+
+cheat() {
+  curl cheat.sh/"$1"
+}
