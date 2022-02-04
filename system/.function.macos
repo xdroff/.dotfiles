@@ -4,3 +4,26 @@ manpdf() {
   man -t "$1" | open -f -a /Applications/Preview.app/
 }
 
+# Set up a proxy (example 127.0.0.1 8080)
+
+# Set proxy
+proxyon() {
+  networksetup -setwebproxy "Wi-fi" "$1" "$2"
+  networksetup -setsecurewebproxy "Wi-fi" "$1" "$2"
+}
+
+# Off proxy
+proxyoff() {
+  networksetup -setwebproxystate "Wi-fi" off
+  networksetup -setsecurewebproxystate "Wi-fi" off
+}
+
+# List proxy
+proxy() {
+  echo "HTTP Proxy:"
+  networksetup -getwebproxy "Wi-fi"
+  printf "\n"
+  echo "HTTPS Proxy:"
+  networksetup -getsecurewebproxy "Wi-fi"
+}
+
