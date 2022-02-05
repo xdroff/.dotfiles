@@ -19,7 +19,7 @@ proxyoff() {
 }
 
 # List proxy
-proxy() {
+proxyls() {
   echo "HTTP Proxy:"
   networksetup -getwebproxy "Wi-fi"
   printf "\n"
