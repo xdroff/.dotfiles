@@ -28,7 +28,8 @@ fi
 # coteditor
 # 1password
 # cloudflare-warp
-# fsnotes  
+# fsnotes
+#Raycast 
 
 #)
 
