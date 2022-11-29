@@ -20,7 +20,7 @@ fi
 #  libreoffice-language-pack
 #  postman
 #  qbittorrent
-#  sequel-pro
+#  sequel-ace
 #  sqlitestudio
 #  steermouse
 #  vagrant
@@ -29,7 +29,8 @@ fi
 # 1password
 # cloudflare-warp
 # fsnotes
-#Raycast 
+# Raycast
+# aldente 
 
 #)
 
