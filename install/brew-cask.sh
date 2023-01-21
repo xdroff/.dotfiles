@@ -30,7 +30,8 @@ fi
 # cloudflare-warp
 # fsnotes
 # Raycast
-# aldente 
+# aldente
+# deepl
 
 #)
 
