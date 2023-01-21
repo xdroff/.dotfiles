@@ -1,5 +1,12 @@
-# Open man page as PDF
+# Timer for work
+# Example: "work 25" start the timer for 25 minutes
+work() {
+  duration=$1m
+  sleep "$duration" && osascript -e 'display notification "☕" with title "Work Timer is up!" subtitle "Take a Break 😊" sound name "Glass"' &
+  echo "The timer for work is set for $duration min" 
+}
 
+# Open man page as PDF
 manpdf() {
   man -t "$1" | open -f -a /Applications/Preview.app/
 }
