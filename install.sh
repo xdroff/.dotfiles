@@ -23,6 +23,7 @@ ln -sfv "$DOTFILES_DIR/runcom/.tmux.conf" ~
 ln -sfv "$DOTFILES_DIR/runcom/.screenrc" ~
 ln -sfv "$DOTFILES_DIR/runcom/.ripgreprc" ~
 ln -sfv "$DOTFILES_DIR/runcom/.toprc" ~
+ln -sfv "$DOTFILES_DIR/runcom/.editorconfig" ~
 ln -sfv "$DOTFILES_DIR/git/.gitconfig" ~
 ln -sfv "$DOTFILES_DIR/git/.gitignore_global" ~
 
