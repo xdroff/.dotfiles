@@ -32,6 +32,7 @@ brew upgrade
 #  docker-completion
 #  vagrant-completion
 #  caarlos0/tap/timer
+#  ffsend
 #)
 
 #brew install "${apps[@]}"
