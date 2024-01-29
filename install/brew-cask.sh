@@ -32,6 +32,7 @@ fi
 # Raycast
 # aldente
 # deepl
+# appcleaner
 
 #)
 
