@@ -33,6 +33,7 @@ fi
 # aldente
 # deepl
 # appcleaner
+# arc
 
 #)
 
