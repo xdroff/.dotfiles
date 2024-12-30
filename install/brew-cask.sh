@@ -9,8 +9,6 @@ fi
 
 #apps=(
 #  iterm2
-#  virtualbox
-#  virtualbox-extension-pack
 #  visual-studio-code
 #  vlc
 #  cyberduck
@@ -23,11 +21,8 @@ fi
 #  sequel-ace
 #  sqlitestudio
 #  steermouse
-#  vagrant
-#  pinta
 # coteditor
 # 1password
-# cloudflare-warp
 # fsnotes
 # Raycast
 # aldente
