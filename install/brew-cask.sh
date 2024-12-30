@@ -29,6 +29,7 @@ fi
 # deepl
 # appcleaner
 # arc
+# zed
 
 #)
 
