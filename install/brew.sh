@@ -30,7 +30,6 @@ brew upgrade
 #  bash-completion
 #  docker-compose
 #  docker-completion
-#  vagrant-completion
 #  caarlos0/tap/timer
 #  ffsend
 #)
