@@ -28,7 +28,6 @@ brew upgrade
 #  unrar
 #  coreutils
 #  bash-completion
-#  docker-compose
 #  docker-completion
 #  caarlos0/tap/timer
 #  ffsend
