@@ -28,6 +28,12 @@ ln -sfv "$DOTFILES_DIR/runcom/.editorconfig" ~
 ln -sfv "$DOTFILES_DIR/git/.gitconfig" ~
 ln -sfv "$DOTFILES_DIR/git/.gitignore_global" ~
 
+# Bunch of symlinks for Mac
+
+if is-macos; then
+  ln -sfv "$DOTFILES_DIR/runcom/.kitty.conf" ~/.config/kitty/kitty.conf
+fi
+
 # Package managers & packages
 
 . "$DOTFILES_DIR/install/brew.sh"
