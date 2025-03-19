@@ -31,6 +31,7 @@ brew upgrade
 #  docker-completion
 #  caarlos0/tap/timer
 #  ffsend
+#  aichat
 #)
 
 #brew install "${apps[@]}"
