@@ -7,7 +7,7 @@ h2ip() {
 # Get ip info
 
 ipinfo() {
-  curl ipinfo.io/"$1" && echo
+  curl -s ipinfo.io/"$1" && echo
 }
 
 # Upload file to transfer.sh
