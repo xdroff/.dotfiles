@@ -30,7 +30,8 @@ fi
 # appcleaner
 # arc
 # zed
+# keyclu
 
 #)
 
-#brew install --cask "${apps[@]}"
+#brew install "${apps[@]}"
