@@ -31,6 +31,7 @@ fi
 # arc
 # zed
 # keyclu
+# anki
 
 #)
 
