@@ -32,6 +32,7 @@ brew upgrade
 #  caarlos0/tap/timer
 #  ffsend
 #  aichat
+#  ollama
 #)
 
 #brew install "${apps[@]}"
