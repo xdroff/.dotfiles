@@ -32,6 +32,7 @@ fi
 # zed
 # keyclu
 # anki
+# obs
 
 #)
 
