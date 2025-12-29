@@ -72,3 +72,6 @@ eval "$(pyenv init -)"
 
 # Added by LM Studio CLI (lms)
 export PATH="$PATH:/Users/droff/.cache/lm-studio/bin"
+
+# Activate fnm (node vrsion manager)
+eval "$(fnm env --use-on-cd)"
