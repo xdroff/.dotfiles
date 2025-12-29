@@ -33,6 +33,7 @@ brew upgrade
 #  ffsend
 #  aichat
 #  ollama
+#  fnm
 #)
 
 #brew install "${apps[@]}"
