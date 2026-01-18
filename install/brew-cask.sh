@@ -33,6 +33,7 @@ fi
 # keyclu
 # anki
 # obs
+# bettershot
 
 #)
 
