@@ -34,6 +34,7 @@ fi
 # anki
 # obs
 # bettershot
+# handy
 
 #)
 
