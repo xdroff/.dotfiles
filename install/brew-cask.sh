@@ -36,6 +36,7 @@ fi
 # bettershot
 # handy
 # background-music
+# finetune
 
 #)
 
