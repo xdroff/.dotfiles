@@ -25,3 +25,5 @@ alias cleanupad="find . -type d -name '.AppleD*' -ls -exec /bin/rm -r {} \;"
 # Show listen ports
 alias listen="netstat -tanp tcp | grep LISTEN"
 
+# Show images with icat (kitty terminal only)
+alias icat="kitten icat"
