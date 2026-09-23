@@ -17,7 +17,6 @@ fi
 #  libreoffice
 #  libreoffice-language-pack
 #  postman
-#  qbittorrent
 #  sequel-ace
 #  sqlitestudio
 #  steermouse
