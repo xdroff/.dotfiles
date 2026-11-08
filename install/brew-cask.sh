@@ -16,7 +16,6 @@ fi
 #  keka
 #  libreoffice
 #  libreoffice-language-pack
-#  postman
 #  sequel-ace
 #  sqlitestudio
 #  steermouse
