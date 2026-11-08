@@ -1,3 +1,7 @@
+# The following lines were added by Docker Desktop to add commands to your PATH.
+export PATH="$PATH:/Users/droff/.docker/bin"
+# End of Docker Desktop section.
+
 # If not running interactively, don't do anything
 
 [ -z "$PS1" ] && return
